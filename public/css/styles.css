@@ -1,0 +1,291 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.clearfix{
+  float: none;
+  clear: both;
+}
+/* body{
+  background: url('../img/hojas.jpg');
+  background-attachment: fixed;
+} */
+
+#global{
+  width: 65%;
+  margin:0px auto;
+  margin-top: 30px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 1px 1px 8px gray;
+}
+
+#logo{
+  font-family: "Vergana","Arial";
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: white;
+  text-align: center;
+  width: 380px;
+  height: 80px;
+  margin-bottom: 20px;
+  line-height: 75px;
+  float: left;
+}
+
+#menu{
+  font-family: "Helvetica","Arial";
+  background: #333;
+  width: 100%;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#menu ul{
+  line-height: 100%;
+  list-style: none;
+}
+
+#menu ul li{
+  height: 46px;
+  display: inline-block;
+  transition: all 300ms;
+}
+
+/* #menu ul li:hover{
+  background-color:#235E3D;
+} */
+#menu a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 300%;
+}
+
+#posts{
+  width: 60%;
+  float: left;
+  font-family: "Helvetica","Arial";
+}
+
+#slider{
+  width: 100%;
+}
+
+#slider img{
+  height: 400px !important;
+}
+
+.post{
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.post h2{
+  font-size: 30px;
+  color: #333;
+}
+.post .date{
+  color: gray;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.post p{
+  margin-top: 15px;
+  margin-bottom: 20px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.button{
+  font-size: 14px;
+  display: flex;
+  border: 1px solid gray;
+  padding: 5px;
+  width: 70px;
+  height: 25px;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover{
+  opacity: 80%;
+}
+
+
+#sidebar{
+  font-family: Helvetica,Arial;
+  width: 30%;
+  float: right;
+  margin-right: 10px;
+}
+#sidebar #about{
+  display: flex;
+  flex-direction:column;/*para que cada elemento permanesa en su fila o posicion*/
+}
+#sidebar h4{
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 10px;
+  color: #333;
+  background: url("../img/lines.png") repeat-x;
+}
+
+#sidebar h4 span{
+  background-color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#sidebar img{
+  align-self: center;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+#sidebar p{
+  font-size: 15px;
+  text-align: justify;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="number"],
+form input[type="date"],
+form select{
+  padding: 5px;
+  border-radius: 2px;
+  border:1px solid  #ccc;
+  width: 90%;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 2px gray;
+  margin-top: 10px;
+}
+
+#btnRegistrar{
+  background: #eee;
+  padding: 5px;
+  border: 1px solid #ccc;
+  color: #333;
+}
+#btnRegistrar:hover{
+  cursor: pointer;
+}
+
+footer{
+  font-family: Helvetica,Arial;
+  color: White;
+  height: 47px;
+  background: rgba(51, 51, 51, 0.7);
+  margin: 0px auto;
+  width: 65%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  line-height: 47px;
+}
+#selector-theme{
+  position:fixed;
+  top:40%;
+  background: rgba(51, 51, 51, 0.7);
+  width: 50px;
+  height: 100px;
+}
+#to-green,
+#to-red,
+#to-blue{
+  width: 25px;
+  height: 25px;
+  border: 1px solid white;
+  display: block;
+  margin: 0px auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#to-green{
+  background:  #235E3D;
+}
+#to-red{
+  background: #CA3413;
+}
+#to-blue{
+  background: #1F87C4;
+}
+.up{
+  display: block;
+  color: white;
+  text-decoration: none;
+  float: right;
+}
+#box{
+  width: 60%;
+  float: left;
+  margin-top: 30px;
+}
+#box h2{
+  font-family: "Helvetica","Arial";
+}
+#acordeon{
+  margin-top: 20px;
+}
+#acordeon h3{
+  color: white;
+}
+#acordeon h3:active{
+  background:  skyblue;
+  color: black;
+}
+#reloj{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Helvetica,Arial;
+  color:#333;
+  border:5px dashed #333;
+  width: 30%;
+  padding: 20px;
+  margin: 0px auto;
+  margin-bottom: 15px;
+  text-align: center;
+}
+#form_contacto{
+  width: 50%;
+  margin-top: 10px;
+  font-family: Helvetica,Arial;
+}
+#form_contacto label{
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#btnEnviar{
+  background: #eee;
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: #333;
+}
+#btnEnviar:hover{
+  cursor: pointer;
+}
+.form-error{
+  display: block;
+  font-size: 13px;
+  color:white;
+  background-color:red;
+  padding: 5px;
+  box-shadow: 1px 1px 8px gray;
+  width: 70%;
+  margin: 0px auto;
+  margin-top: 5px;
+}
+#form_contacto .form-error ul{
+  list-style: circle;
+}

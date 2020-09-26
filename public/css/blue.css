@@ -1,0 +1,16 @@
+body{
+  background: url('../img/cielo.jpg');
+  background-attachment: fixed;
+}
+#logo{
+  background-color: #1F87C4;
+}
+#menu ul li:hover{
+  background-color:#1F87C4;
+}
+.button{
+  background-color: #1F87C4;
+}
+#acordeon h3{
+  background-color: #1F87C4;
+}
